@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Declaração da variável para armazenar o peso em quilos
+    float peso_quilos;
+
+    // Solicitar ao usuário que insira o peso em quilos
+    cout << "Digite o peso em quilos: ";
+    cin >> peso_quilos;
+
+    // Calcular o peso em gramas (1 quilo = 1000 gramas)
+    float peso_gramas = peso_quilos * 1000;
+
+    // Exibir o resultado
+    cout << "O peso em gramas e: " << peso_gramas << " gramas" << endl;
+
+    return 0;
+}
